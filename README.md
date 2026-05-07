@@ -45,3 +45,12 @@ project/
 ├── .streamlit/
 │   └── secrets.toml
 └── README.md
+```
+
+---
+
+# 👨‍💻 Author
+
+Renato Silveira
+
+Software Engineer transitioning into AI Engineering, Machine Learning, and Data Science.
