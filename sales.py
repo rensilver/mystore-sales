@@ -167,9 +167,9 @@ def kpi(title, value, delta=None):
     </div>
     """
 
-col1.markdown(kpi("Revenue", f"R$ {total_revenue:,.2f}", delta), unsafe_allow_html=True)
+col1.markdown(kpi("Revenue", f"R$ {total_revenue:,.2f}".replace(",", "X").replace(".", ",").replace("X", "."), delta), unsafe_allow_html=True)
 col2.markdown(kpi("Orders", orders), unsafe_allow_html=True)
-col3.markdown(kpi("Avg Ticket", f"R$ {avg_ticket:,.2f}"), unsafe_allow_html=True)
+col3.markdown(kpi("Avg Ticket", f"R$ {avg_ticket:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")), unsafe_allow_html=True)
 
 # =========================
 # CHARTS
