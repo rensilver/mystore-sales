@@ -130,7 +130,7 @@ This project helped reinforce concepts such as:
 
 ---
 
-📌 Future Improvements
+# 📌 Future Improvements
 - Docker support
 - Authentication/Login
 - Deployment on Streamlit Cloud or AWS
