@@ -4,6 +4,8 @@ Interactive sales analytics dashboard built with Python, Streamlit, Plotly, Pand
 
 The application provides real-time sales insights through interactive charts, KPI metrics, filters, and formatted financial data visualization.
 
+![Tela inicial.](https://raw.githubusercontent.com/rensilver/image-repo-github/main/prin-sales-analytics-dashboard.png "This is a sample image.")
+
 ---
 
 # 🚀 Technologies Used
